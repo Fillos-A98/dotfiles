@@ -74,6 +74,11 @@
        }
   },    
   
+  "hyprland/language": {
+    "format": "{}",
+    "tooltip": false
+  },
+
   "tray": {
     "icon-size": 12,
     "spacing": 6,

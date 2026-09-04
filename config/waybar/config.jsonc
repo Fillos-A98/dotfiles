@@ -8,9 +8,9 @@
     "position": "top",
     "margin-top": 5,
     "width": 1900,
-    "modules-left": [ "clock", "group/main", "tray", "hyprland/workspaces", "mpris"],
-    "modules-center": [ ],
-    "modules-right": [ "custom/update", "network", "pulseaudio", "custom/power"  ],
+    "modules-left": ["group/main", "hyprland/workspaces"],
+    "modules-center": ["clock"],
+    "modules-right": [ "custom/update", "network", "pulseaudio", "hyprland/language", "custom/power"  ],
     "sway/window": {
         "max-length": 50
     },

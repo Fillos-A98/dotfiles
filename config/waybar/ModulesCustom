@@ -14,7 +14,19 @@
 	"tooltip-format": "Reboot",
 },
 
+"custom/cava": {
+    "exec": "/home/fillos/.config/waybar/scripts/cava.sh",
+    "format": "{}",
+    "interval": 0.1,
+    "tooltip": false
+},
 //Groups..
+"custom/cava": {
+    "exec": "/home/fillos/.config/waybar/scripts/cava.sh",
+    "format": "{}",
+    "interval": 0.1,
+    "tooltip": false
+},
 
 
 "group/main": {

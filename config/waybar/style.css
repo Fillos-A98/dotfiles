@@ -11,7 +11,7 @@
 
 window#waybar {
     background: transparent;
-    color: white;
+    color: cyan;
 }
 
 tooltip {
@@ -19,18 +19,30 @@ tooltip {
   border: 12px solid rgba(100, 114, 125, 0.5);
 }
 tooltip label {
-  color: white;
+  color: cyan;
 }
 
 #workspaces {
     transition: all 150ms ease-in-out;
 }
 
+
+#language,
+#hyprland-language {
+    font-family: "SF Pro Display", "JetBrainsMono Nerd Font Propo";
+    font-size: 14px;
+    font-weight: 800;
+    background: alpha(#121212, 0.4);
+    border-radius: 8px;
+    padding: 0 5px;
+    margin: 0 3px;
+}
+
 #workspaces button {
     transition: all 150ms ease-in-out;
     padding: 1px 0px;
     background:rgba(0, 0, 0, 0.3);
-    color: white;
+    color: cyan;
     border: 1px solid transparent;
     border-radius: 999px;
     margin: 0 2px;
@@ -61,13 +73,6 @@ tooltip label {
     margin: 0 3px;
 }
 
-#tray {
-    font-weight: 800;
-    background:alpha(#121212, 0.4);
-    border-radius: 99px;
-    padding: 0px 5px;
-    margin: 0 4px;
-}
 
 #custom-media {
     margin: 0 2px;
