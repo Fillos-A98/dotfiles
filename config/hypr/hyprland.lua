@@ -50,12 +50,13 @@ local menu        = "hyprlauncher"
 --
 
 hl.on("hyprland.start", function()
-    hl.exec_cmd("nwg-dock-hyprland -d -hd 50 -l overlay -i 30 -a center -lp start -mb 20 -nolauncher")
+--    hl.exec_cmd("nwg-dock-hyprland -d -hd 50 -l overlay -i 30 -a center -lp start -mb 20 -nolauncher")
     hl.exec_cmd("waybar")
     hl.exec_cmd("awww-daemon")
     hl.exec_cmd("swaync")
     hl.exec_cmd("swayosd-server")
     hl.exec_cmd("wl-paste --type text --watch cliphist store")
+    hl.exec_cmd("~/.cache/yay/hyprwave/hyprwave-1.0/hyprwave")
     hl.dsp.exec_cmd("awww img /home/fillos/.config/wallpaper.jpg")
     hl.exec_cmd("wl-paste --type image --watch cliphist store")
 end)
