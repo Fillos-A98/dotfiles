@@ -1,17 +1,50 @@
-# My Hypr Conf
+# dotfiles
 
-idk, its my actualy config on hyprland
+> My daily driver. My configs. My questionable decisions.
 
-## Features
+A personal **Hyprland** setup built around a fast, minimal and heavily customized Wayland desktop.
 
-1. HyprLand
-2. WayBar
-3. HyprWaves
-4. Swww(or Awww)
-5. Fastfetch
+No fancy installer. No magic script. Just configs and a fuckton of tweaking.
 
-## Installation
+## What's inside
+
+* **Hyprland** — compositor / WM
+* **Waybar** — status bar
+* **Hyprwave** — audio visualizer
+* **Swww / Awww** — wallpapers
+* **Fastfetch** — because `neofetch` wasn't enough
+
+## Setup
 
 ```bash
 git clone https://github.com/Fillos-A98/dotfiles.git
 cd dotfiles
+```
+
+Then copy whatever you actually want from `config/`.
+
+## Philosophy
+
+Keep it fast.
+Keep it clean.
+Break it.
+Fix it.
+Commit it.
+
+```text
+Arch Linux
+    ↓
+Hyprland
+    ↓
+Waybar + Hyprwave
+    ↓
+way too much rice
+```
+
+## Screenshots
+
+![Hyprland Desktop](./screen.png)
+
+## License
+
+Do whatever the fuck you want with it.
