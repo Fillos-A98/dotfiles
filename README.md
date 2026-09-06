@@ -14,4 +14,4 @@ idk, its my actualy config on hyprland
 
 ```bash
 git clone https://github.com/Fillos-A98/dotfiles.git
-cd REPOSITORY
+cd dotfiles
